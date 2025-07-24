@@ -8,10 +8,10 @@ public class Program
 
     public static void Main(string[] args)
     {
-        int[] arr = { 7, 3, 5, 1, 9, 4 };
-        QuickSort quickSort = new QuickSort();
-        quickSort.Sort(arr, 0, arr.Length - 1);
-        quickSort.Print(arr, arr.Length);
+        int[] arr = { 7, 3, 5, 1, 9, 4, -2 };
+        MergeSort mergeSort = new MergeSort();
+        mergeSort.Sort(arr);
+        mergeSort.Print(arr, arr.Length);
         Console.ReadLine();
 
     }
