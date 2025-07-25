@@ -8,11 +8,9 @@ public class Program
 
     public static void Main(string[] args)
     {
-        int[] arr = { 7, 3, 5, 1, 9, 4, -2 };
-        MergeSort mergeSort = new MergeSort();
-        mergeSort.Sort(arr);
-        mergeSort.Print(arr, arr.Length);
+        int[] arr = { 0, 1, 0, 3, 12 };
+        MoveZeros283 moveZeros283 = new MoveZeros283();
+        moveZeros283.MoveZeroes(arr);
         Console.ReadLine();
-
     }
 }
