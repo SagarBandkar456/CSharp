@@ -8,9 +8,9 @@ public class Program
 
     public static void Main(string[] args)
     {
-        int[] arr = { 0, 1, 0, 3, 12 };
-        MoveZeros283 moveZeros283 = new MoveZeros283();
-        moveZeros283.MoveZeroes(arr);
+        int[] arr = { 7, 1, 5, 3, 6, 4 };
+        SellStock121 sellStock121 = new SellStock121();
+        sellStock121.MaxProfit(arr);
         Console.ReadLine();
     }
 }
