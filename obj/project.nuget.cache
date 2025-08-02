@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "xQ6E4gnaeSH/zx7IOS9mP16o1axmRpdBlIG2j2ZS70xmGqH3sMfSw+HrO4ZSWcrxonIN24piNcO2JCnt3SXuxg==",
+  "dgSpecHash": "OWkqd6OuWxo=",
   "success": true,
   "projectFilePath": "/home/sagar-bandkar/Sagar/C-/c#.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/sagar-bandkar/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.18/microsoft.netcore.app.host.linux-x64.8.0.18.nupkg.sha512"
+  ],
   "logs": []
 }
