@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/sagar-bandkar/Sagar/C-/c#.csproj",
+      "projectUniqueName": "/home/sagar-bandkar/Sagar/CSharp/c#.csproj",
       "projectName": "c#",
-      "projectPath": "/home/sagar-bandkar/Sagar/C-/c#.csproj",
+      "projectPath": "/home/sagar-bandkar/Sagar/CSharp/c#.csproj",
       "packagesPath": "/home/sagar-bandkar/.nuget/packages/",
-      "outputPath": "/home/sagar-bandkar/Sagar/C-/obj/",
+      "outputPath": "/home/sagar-bandkar/Sagar/CSharp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/sagar-bandkar/.nuget/NuGet/NuGet.Config"
