@@ -5,9 +5,18 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        GenerateParentheses22 generateParentheses22 = new GenerateParentheses22();
+        AdjacencyMatrix adjacencyMatrix = new();
+        int v = 4;
 
-        generateParentheses22.GenerateParenthesis(3);
+        int[,] mat = new int[v, v];
+
+        adjacencyMatrix.AddEdge(mat, 0, 1);
+        adjacencyMatrix.AddEdge(mat, 0, 2);
+        adjacencyMatrix.AddEdge(mat, 1, 2);
+        adjacencyMatrix.AddEdge(mat, 2, 3);
+
+        adjacencyMatrix.DisplayMatrix(mat);
+
         Console.ReadLine();
     }
 }

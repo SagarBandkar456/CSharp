@@ -2,19 +2,19 @@ using System;
 
 public class QueueUsingStack232
 {
-    Stack<int> main = new();
+    Stack<int> mn = new();
     Stack<int> temp = new();
 
     public void Push(int x)
     {
-        while (main.Count > 0) temp.Push(main.Pop());
-        main.Push(x);
-        while (temp.Count > 0) main.Push(temp.Pop());
+        while (mn.Count > 0) temp.Push(mn.Pop());
+        mn.Push(x);
+        while (temp.Count > 0) mn.Push(temp.Pop());
     }
 
-    public int Pop() => main.Pop();
+    public int Pop() => mn.Pop();
 
-    public int Peek() => main.Peek();
+    public int Peek() => mn.Peek();
 
-    public bool Empty() => main.Count == 0;
+    public bool Empty() => mn.Count == 0;
 }

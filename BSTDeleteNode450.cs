@@ -2,11 +2,6 @@ using System;
 
 public class BSTDeleteNode450
 {
-    public static void Main(string[] args)
-    {
-        Console.WriteLine("Hello World");
-    }
-
     public TreeNode DeleteNode(TreeNode root, int key)
     {
         if (root == null) return null;
